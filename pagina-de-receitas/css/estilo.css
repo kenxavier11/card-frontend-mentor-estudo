@@ -1,0 +1,129 @@
+.main{
+    max-width: 100%;
+    height: auto;
+    background-color: var(--rose-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .book{
+    width: 700px;
+    height: auto;
+    padding: 30px;
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.main .book h2{
+    font-size: 2.5rem;
+    font-family: "Young Serif";
+    color: var(--brown);
+    font-weight: 500;
+    margin: 20px 0;
+}
+.main .book span.sub-tittle{
+    font-weight: 800;
+}
+
+.main .book .img{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.main .book .description h1{
+    font-size: 3.8rem;
+    margin: 15px 0 10px 0;
+    font-family:  "Young Serif";
+    font-weight: 500;
+}
+.main .book .description p{
+    color: var(--stone-medium);
+    font-weight: 500;
+    font-family: "Outfit";
+    font-size: 1.45rem;
+    line-height: 25px;
+}
+/* preparation */
+.main .book .preparation-time{
+    background-color: var(--rose-light);
+    padding: 10px;
+    margin-top: 30px;
+}
+.main .book .preparation-time h3{
+    font-family: "Outfit";
+    color: var(--rose-strong);
+    font-size: 1.8rem;
+    margin: 10px 0 15px 15px;
+}
+.main .book .preparation-time ul{
+    padding-left: 40px;
+}
+.main .book .preparation-time ul li{
+    padding: 5px 5px 5px 15px; 
+    color: var(--stone-medium);
+}
+
+/* Igredients */
+.main .book .ingredients{
+    border-bottom: 1px solid var(--stone-light);
+    padding-bottom: 30px;
+}
+
+.main .book .ingredients ul li{
+    padding: 5px 0px 5px 15px;
+    margin-left: 20px;
+    color: var(--stone-medium);
+}
+/* instructions */
+.main .book .instructions{
+    border-bottom: 1px solid var(--stone-light);
+    padding: 30px;
+}
+.main .book .instructions ol li{
+    color: var(--stone-medium);
+    font-size: 1.6rem;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: "Outfit";
+}
+/* nutrition */
+.main .book .nutrition p.info{
+    color: var(--stone-medium);
+    margin-bottom: 30px;
+}
+.main .book .nutrition .divisoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--stone-light);
+}
+.main .book .nutrition .divisoes h3{
+    color: var(--brown);
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Outfit';
+
+}
+.main .book .nutrition .divisoes p{
+    color: var(--stone-medium);
+    padding-left: 20px;
+}
+.main .book .nutrition .divisoes.um h3{
+    padding-right: 262px;
+}
+.main .book .nutrition .divisoes.dois h3{
+    padding-right: 300px;
+}
+.main .book .nutrition .divisoes.tres h3{
+    padding-right: 290px;
+}
+.main .book .nutrition .divisoes.quatro h3{
+    padding-right: 290px;
+}

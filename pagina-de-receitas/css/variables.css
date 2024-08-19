@@ -1,0 +1,15 @@
+:root{
+    /* colors */
+    --stone-very-light: hsl(30, 54%, 90%);
+    --stone-light: hsl(30, 18%, 87%);
+    --stone-medium: hsl(30, 10%, 34%);
+    --stone-strong: hsl(24, 5%, 18%);
+
+    --brown: hsl(14, 45%, 36%);
+
+    --rose-light: hsl(330, 100%, 98%);
+    --rose-strong: hsl(332, 51%, 32%);
+    /* font */
+    --outfit:"Outfit";
+    --jovem:  font-family: "Young Serif";
+}
